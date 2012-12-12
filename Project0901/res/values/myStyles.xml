@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 
+    Create a style named LargeText that does the following:
+    	(1) Inherits from the system style @android:style/TextAppearance.Large
+    	(2) Defines the typeface as "monospace"
+     -->
+    
+        <!-- 
+    Create a style that uses the following:
+    	(1) Use dot "." notation to inherit from the above style
+    	(2) Set the text color to #FF0000
+     -->
+    
+    
+    <!-- 
+    Create a style called "MyTheme" the does the following:
+    	(1) Inherits from the system style @android:style/Theme.Dialog
+    	(2) Defines the typeface as "monospace"
+     -->
+    
+    </resources>

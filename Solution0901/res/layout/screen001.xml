@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- Note text view has a style of both large and red 
+    	We are using . notation to inherit the large text size
+    	from the parent style and the red color from the child
+    	style.
+    -->
+    
+    <TextView
+        style="@style/LargeText.Red"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="@string/BigRed" />
+
+</LinearLayout>

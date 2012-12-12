@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lab0902"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+        <!-- 
+        
+        You might be tempted to do something like this:
+        
+        android:theme="@android:style/Theme.Light"
+        android:theme="@android:style/Theme.NoTitleBar"
+        
+        Since the manifest can't have two themes, you should create 
+        a custom theme that inherits from the first theme and
+        then configures the specific aspect you want from the 
+        second theme.  See MySuperTheme in myStyles.xml.    
+        
+        -->
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MySuperTheme"
+        >
+        <activity
+            android:name="com.example.lab0902.Lab0902"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
